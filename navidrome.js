@@ -2,8 +2,8 @@ async function redirect2Pan(r) {
     const nvdHost = 'http://127.0.0.1:4533';  // Navidrome 地址
     const pathPrefix = '/Yidong/Music'; // 路径前缀 比如作者的Navidrome音乐文件夹在/Yidong/Music，注意：这里会自动替换掉navidrome挂载路径/music 或者/Music 为这个路径前缀
     const alistToken = 'alist-xxx';  // Alist的Token
-    const alistApiPath = 'http://127.0.0.1:5244/api/fs/get'; // Alist API 路径
-    const alistDownloadApiPath = 'http://127.0.0.1:5244/api/fs/link'; // Alist API 路径
+    const alistApiPath = 'http://127.0.0.1:5244/api/fs/get'; 
+    const alistDownloadApiPath = 'http://127.0.0.1:5244/api/fs/link'; 
 
     // 构造 Navidrome 的 songUri
     let songUri = `${nvdHost}/rest/getSong?`;
