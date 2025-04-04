@@ -18,6 +18,7 @@ alist token请在settings——》Other中获取token
 **播放器使用：**
 
 **第一步：：** 在音乐播放器中加入你的navidrome服务器——》ip:4531 。在播放时，会发现路径出现问题。请打开服务器网页端，右上角setting——》player——》点击你所使用的播放器——》选中Report Real Path即可。
+
 ![image](https://github.com/user-attachments/assets/19fce088-19e0-4998-bbbb-8f1c4e596baa)
 ![image](https://github.com/user-attachments/assets/67622acd-46f9-4255-80f0-e5c7aa225bdc)
 
