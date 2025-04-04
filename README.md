@@ -29,3 +29,6 @@ alist token请在settings——》Other中获取token
 2025/04/04 06:05:16 [error] 23#23: *3344 js: 解码后路径: /music/「日系纯音向」夏树眠 蝉在叫/萤火虫 - 萤火虫之舞.flac
 2025/04/04 06:05:16 [error] 23#23: *3344 js: 最终Alist路径: /Yidong/Music/「日系纯音向」夏树眠 蝉在叫/萤火虫 - 萤火虫之舞.flac
 2025/04/04 06:05:16 [error] 23#23: *3344 js: Fetching file info with path: /Yidong/Music/「日系纯音向」夏树眠 蝉在叫/萤火虫 - 萤火虫之舞.flac
+
+
+最后感谢syqman和bpking大佬的脚本
