@@ -11,7 +11,7 @@ pathPrefix的意思是你alist中音乐文件夹的路径。并会将第一步�
 alist token请在settings——》Other中获取token
 ![image](https://github.com/user-attachments/assets/836a6451-5bb7-4906-a5b2-6ebafaf8f754)
 
-**第三步：** 在nginx.conf（nginx自带文件）中首行加上load_module modules/ngx_http_js_module.so; 如不可以使用请自行想办法。
+**第三步：** 在nginx.conf（nginx自带文件）中首行加上load_module modules/ngx_http_js_module.so; 使用nginx -t 检查配置是否可用，如果js模块不可使用，请自行解决。
 
 
 
