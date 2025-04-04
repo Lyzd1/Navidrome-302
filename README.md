@@ -8,6 +8,7 @@
 
 **第二步：** 将navidrome.js 和 nginx.conf文件下载并放置在nginx的conf.d文件夹下，注意修改navidrome.js文件的前面几个参数。
 pathPrefix的意思是你alist中音乐文件夹的路径。并会将第一步所设置的挂载路径/music修改为该路径并访问。
+alist token请在settings——》Other中获取token
 ![image](https://github.com/user-attachments/assets/836a6451-5bb7-4906-a5b2-6ebafaf8f754)
 
 **第三步：** 在nginx.conf（nginx自带文件）中首行加上load_module modules/ngx_http_js_module.so; 如不可以使用请自行想办法。
