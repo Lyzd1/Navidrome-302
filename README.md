@@ -1,8 +1,10 @@
 # Navidrome-302
 
+注意：
+
 **服务器nginx反代修改：**
 
-**第一步：** 如图所示，确认Navidrome的挂载路径为/music 或者 /Music （前面的宿主机路径随意，后面容器内路径需要为前面的示例。）
+**第一步：** 如图所示，云盘音乐webdav挂载到为/Music，然后Docker安装Navidrome时，将其映射到/music目录下。
 
 ![image](https://github.com/user-attachments/assets/6b48ceec-579a-4dc7-8889-436a782f8996)
 
