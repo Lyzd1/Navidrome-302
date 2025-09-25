@@ -1,6 +1,6 @@
 # Navidrome-302
 
-注意：
+注意：如果使用docker部署Navidrome和Openlist，必须开host模式
 
 **服务器nginx反代修改：**
 
