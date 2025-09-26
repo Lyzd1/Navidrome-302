@@ -3,7 +3,7 @@ async function redirect2Pan(r) {
     const remotePrefix = '/Yidong/Music'; // 远端路径前缀
     const alistToken = 'openlist-xxx';  // Openlist 的 Token
     const alistApiPath = 'http://127.0.0.1:5244/api/fs/get'; // Openlist API 路径
-    //下面参数一般不需要
+    //下面功能一般不需要
     const enableLocalFallback = false; // 新增：是否启用本地路径回退功能
     const localPrefix = '/Local/Music'; // 本地路径前缀
     const localIP = 'xxx'; // 本地IP，用于替换127.0.0.1
@@ -220,3 +220,4 @@ async function getSongPathAsync(songUri, cookie, ua, r) {
     }
 }
 export default { redirect2Pan };
+
