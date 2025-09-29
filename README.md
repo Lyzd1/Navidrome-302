@@ -1,6 +1,17 @@
 # Navidrome-302
 
-注意：如果使用docker部署Navidrome和Openlist，必须开host模式
+前情提要：
+1.如果使用docker部署Navidrome和Openlist，如果不可用，建议开host模式
+2.Navidrome参数配置
+环境变量：
+- ND_SCANNER_SCANONSTARTUP=false  （必设置）
+- ND_ENABLEARTWORKPRECACHE=true   （必设置）
+- ND_IMAGECACHESIZE=2G            （尽量设置大一点。 设置越大，占用本地空间越大，如果设置过小，播放时则会在空间占满时，从云盘拉取数据。/data/cache/images）
+- ND_SCANNER_SCHEDULE=1h           (不要设置过段的扫描时间，也可以设置试试，如果不风控。)
+
+voluemes
+- "/你的openlist挂载路径/to/Music路径:/music:ro"  （ro必须要，表示仅读取）
+- 
 
 **服务器nginx反代修改：**
 
