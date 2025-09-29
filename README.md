@@ -45,6 +45,7 @@ alist token请在settings——》Other中获取token
 
 
 最后感谢syqman和bpking大佬的脚本
+感谢carethink11对于部分参数的细化和具体使用的讨论
 
 <a href="https://syq.pub/archives/93/">syqman</a>
 <a href="https://blog.738888.xyz/">bpking</a>
