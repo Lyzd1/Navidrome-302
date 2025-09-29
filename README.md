@@ -11,7 +11,7 @@
 
 voluemes
 - "/你的openlist挂载路径/to/Music路径:/music:ro"  （ro必须要，表示仅读取）
-- 
+
 
 **服务器nginx反代修改：**
 
